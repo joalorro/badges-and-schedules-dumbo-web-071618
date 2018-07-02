@@ -1,3 +1,5 @@
+myDogs = ['Edsger','Ada', ]
+
 def badge_maker(name)
   return "Hello, my name is #{name}."
 end 
@@ -20,4 +22,11 @@ def assign_rooms(speakers)
   end
   
   return roomAssignments
+end
+
+def printer 
+  batch_badge_creator()
+  assign_rooms.each do |badges|
+    puts badges
+  end
 end
