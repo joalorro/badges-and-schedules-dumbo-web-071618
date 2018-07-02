@@ -14,7 +14,7 @@ def assign_rooms(speakers)
   roomAssignments = []
   room = 1
   
-  speakers.each |name| do
+  speakers.each do |name|
     roomAssignments.push "Hello, #{name}! You'll be assigned to room #{room}!"
     room += 1
   end
