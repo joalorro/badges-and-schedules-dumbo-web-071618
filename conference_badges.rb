@@ -24,11 +24,11 @@ def assign_rooms(speakers)
   return roomAssignments
 end
 
-def printer 
+def printer (myDogs)
   batch_badge_creator(myDogs)
   assign_rooms(myDogs).each do |badges|
     puts badges
   end
 end
 
-printer
+printer(myDogs)
