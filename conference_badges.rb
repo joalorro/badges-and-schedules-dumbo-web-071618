@@ -14,7 +14,7 @@ def assign_rooms(speakers)
   rooms = 1..7
   roomAssignments = []
   for i in rooms do 
-    roomAssignments.push "Hello, #{speakers[i]}! You'll be assigned to room #{rooms[i]}!"
+    roomAssignments.push "Hello, #{speakers[i - 1]}! You'll be assigned to room #{rooms[i - 1]}!"
   end
   
   return roomAssignments
