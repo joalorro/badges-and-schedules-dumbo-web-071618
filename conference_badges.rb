@@ -30,3 +30,5 @@ def printer
     puts badges
   end
 end
+
+printer
